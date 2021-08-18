@@ -128,7 +128,7 @@ public class NumberListDaoImpl implements NumberListDao {
 	}
 
 	@Override
-	public boolean insert(NumberListVo vo, Long checkIndex) {
+	public boolean insert(NumberListVo vo, Long checkIndex) {// 안써도되는 메소드
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		int insertedCount = 0;
